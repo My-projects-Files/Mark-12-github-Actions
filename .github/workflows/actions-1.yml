@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest #keep this as self-hosted for self hosted runner
     strategy:
       matrix:
         python-version: ["3.10","3.11"]
